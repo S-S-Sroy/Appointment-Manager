@@ -1,0 +1,48 @@
+table ,th{
+	border:1px solid black ;
+	text-align:left;
+}
+.top{
+	height: 30px;
+	font-size: 60px;
+	font-family: Arial;
+	text-shadow: 6px 3px 9px blue;
+	padding-top: 5px;
+	padding-left: 10px;
+
+   
+}
+
+.first ul{
+	color: white;
+	margin: 0px;
+	margin-top: 40px;
+	padding: 0px;
+	list-style: none;
+
+}
+.first ul li{
+	float:left;
+	width:180px;
+	height: 35px;
+	text-align:center;
+	background-color: black;
+	opacity: 0.6;
+	padding-top: 15px; 
+	margin-left: 20px;
+    border-radius: 30px;
+}
+.first ul li a:hover {
+	background-color: #4B0082;
+}
+.first ul li ul li{
+	margin:0px;
+	margin-top: 2px;
+	opacity: 0.9;
+	display: none;
+}
+
+.first ul li:hover ul li{
+
+	display: block;
+}
